@@ -1,3 +1,6 @@
+//Basic Electronics Project
+/*Author: Rahul Shah */
+
 const int ledred1 = 10;
 const int ledred2 = 9;
 const int ledgreen2 = 8;
@@ -69,6 +72,5 @@ else
 {
     digitalWrite(buzzerpin, LOW);
 }
-
 
 }
