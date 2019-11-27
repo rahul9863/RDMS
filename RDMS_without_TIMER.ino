@@ -55,7 +55,7 @@ if (ldrStatus2<= thresold )
 {
 digitalWrite(ledred1, HIGH);
 digitalWrite(ledgreen1, LOW);
-timestatus = millis();
+timestatus2 = millis();
 red1status=true;
 }
 if ((millis()-timestatus2)>5000 && red1status)
